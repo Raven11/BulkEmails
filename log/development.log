@@ -1,0 +1,1600 @@
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-09 13:42:16 +0530
+Processing by EmailerController#index as HTML
+  Rendered emailer/index.html.erb within layouts/application (37.0ms)
+Completed 200 OK in 1359ms (Views: 1296.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/emailer.css?body=1" for 127.0.0.1 at 2014-10-09 13:42:18 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-09 13:42:18 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-09 13:42:18 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-09 13:42:18 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-09 13:42:18 +0530
+
+
+Started GET "/assets/emailer.js?body=1" for 127.0.0.1 at 2014-10-09 13:42:18 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-09 13:42:18 +0530
+
+
+Started POST "/emailer/csv_import" for 127.0.0.1 at 2014-10-09 13:42:58 +0530
+Processing by EmailerController#csv_import as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9Ihr5hxkz/u5TZEqejiqJtrseXmIYjmOBLJYZf0IFiw=", "file"=>#<ActionDispatch::Http::UploadedFile:0x000000039e8358 @tempfile=#<File:/tmp/RackMultipart20141009-20125-1x0xn24>, @original_filename="sample.csv", @content_type="text/csv", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"sample.csv\"\r\nContent-Type: text/csv\r\n">, "subject"=>"Hello", "message"=>"hellow\r\n\r\nThanks,\r\n<name>", "commit"=>"Send"}
+  Rendered emailer/contact_mail.html.erb (31.1ms)
+
+Emailer#contact_mail: processed outbound mail in 104.0ms
+
+Sent mail to eashan@crypsis.net (33303.1ms)
+Date: Thu, 09 Oct 2014 13:42:58 +0530
+From: dev@crypsis.com
+To: eashan@crypsis.net
+Message-ID: <5436438ae6656_4e9d1ce13b878568@eashan-Inspiron-3521.mail>
+Subject: Hello
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+message: hellow=0D=0A=0D=0AThanks,=0D=0Aeashan
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+	</head>
+	<body>
+		<p>
+		<p>hellow</p>
+
+<p>Thanks,
+<br />eashan</p>
+		</p>
+	</body>
+</html>
+
+  Rendered emailer/contact_mail.html.erb (0.3ms)
+
+Emailer#contact_mail: processed outbound mail in 23.2ms
+
+Sent mail to bairagi.eashan11@gmail.com (33726.1ms)
+Date: Thu, 09 Oct 2014 13:43:32 +0530
+From: dev@crypsis.com
+To: bairagi.eashan11@gmail.com
+Message-ID: <543643ac36c52_4e9d1ce13b878672@eashan-Inspiron-3521.mail>
+Subject: Hello
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+message: hellow=0D=0A=0D=0AThanks,=0D=0Aeashan
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+	</head>
+	<body>
+		<p>
+		<p>hellow</p>
+
+<p>Thanks,
+<br />eashan</p>
+		</p>
+	</body>
+</html>
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 67166ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-09 13:44:05 +0530
+Processing by EmailerController#index as HTML
+  Rendered emailer/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 54ms (Views: 52.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/emailer.css?body=1" for 127.0.0.1 at 2014-10-09 13:44:06 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-09 13:44:06 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-09 13:44:06 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-09 13:44:06 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-09 13:44:06 +0530
+
+
+Started GET "/assets/emailer.js?body=1" for 127.0.0.1 at 2014-10-09 13:44:06 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-09 13:44:06 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-23 11:22:31 +0530
+Processing by EmailerController#index as HTML
+  Rendered emailer/index.html.erb within layouts/application (40.0ms)
+Completed 200 OK in 347ms (Views: 319.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/emailer.css?body=1" for 127.0.0.1 at 2014-10-23 11:22:33 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-23 11:22:33 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-23 11:22:33 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-23 11:22:33 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-23 11:22:33 +0530
+
+
+Started GET "/assets/emailer.js?body=1" for 127.0.0.1 at 2014-10-23 11:22:33 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-23 11:22:33 +0530
+
+
+Started POST "/emailer/csv_import" for 127.0.0.1 at 2014-10-23 11:24:12 +0530
+Processing by EmailerController#csv_import as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+2SF3lsEH7PVVHDtMUwc0IetLJdxpFP2+h8udVqen2o=", "file"=>#<ActionDispatch::Http::UploadedFile:0x007f4e58a044e0 @tempfile=#<File:/tmp/RackMultipart20141023-4499-7yrdwv>, @original_filename="sample.csv", @content_type="text/csv", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"sample.csv\"\r\nContent-Type: text/csv\r\n">, "subject"=>"splat uniq test", "message"=>"Hi, \r\nTesting Unique here.\r\n\r\nThanks,\r\n<name>", "commit"=>"Send"}
+  Rendered emailer/contact_mail.html.erb (99.7ms)
+
+Emailer#contact_mail: processed outbound mail in 197.3ms
+
+Sent mail to eashan@crypsis.net (2818.1ms)
+Date: Thu, 23 Oct 2014 11:24:12 +0530
+From: dev@crypsis.com
+To: eashan@crypsis.net
+Message-ID: <54489804dac69_11933fa72200400c4266@eashan-Inspiron-3521.mail>
+Subject: splat uniq test
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+message: Hi, =0D=0ATesting Unique here.=0D=0A=0D=0AThanks,=0D=0Aeashan
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+	</head>
+	<body>
+		<p>
+		<p>Hi, 
+<br />Testing Unique here.</p>
+
+<p>Thanks,
+<br />eashan</p>
+		</p>
+	</body>
+</html>
+
+  Rendered emailer/contact_mail.html.erb (0.2ms)
+
+Emailer#contact_mail: processed outbound mail in 19.7ms
+
+Sent mail to bairagi.eashan11@hotmail.com (2381.6ms)
+Date: Thu, 23 Oct 2014 11:24:15 +0530
+From: dev@crypsis.com
+To: bairagi.eashan11@hotmail.com
+Message-ID: <54489807b26ef_11933fa72200400c4349@eashan-Inspiron-3521.mail>
+Subject: splat uniq test
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+message: Hi, =0D=0ATesting Unique here.=0D=0A=0D=0AThanks,=0D=0Aeashan
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+	</head>
+	<body>
+		<p>
+		<p>Hi, 
+<br />Testing Unique here.</p>
+
+<p>Thanks,
+<br />eashan</p>
+		</p>
+	</body>
+</html>
+
+  Rendered emailer/contact_mail.html.erb (0.2ms)
+
+Emailer#contact_mail: processed outbound mail in 20.1ms
+
+Sent mail to bairagi.eashan11@gmail.com (2399.4ms)
+Date: Thu, 23 Oct 2014 11:24:18 +0530
+From: dev@crypsis.com
+To: bairagi.eashan11@gmail.com
+Message-ID: <5448980a20fc7_11933fa72200400c449a@eashan-Inspiron-3521.mail>
+Subject: splat uniq test
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+message: Hi, =0D=0ATesting Unique here.=0D=0A=0D=0AThanks,=0D=0Aeashan
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+	</head>
+	<body>
+		<p>
+		<p>Hi, 
+<br />Testing Unique here.</p>
+
+<p>Thanks,
+<br />eashan</p>
+		</p>
+	</body>
+</html>
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 7873ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-23 11:24:20 +0530
+Processing by EmailerController#index as HTML
+  Rendered emailer/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 59ms (Views: 58.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/emailer.css?body=1" for 127.0.0.1 at 2014-10-23 11:24:21 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-23 11:24:21 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-23 11:24:21 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-23 11:24:21 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-23 11:24:21 +0530
+
+
+Started GET "/assets/emailer.js?body=1" for 127.0.0.1 at 2014-10-23 11:24:21 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-23 11:24:21 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-30 17:24:29 +0530
+Processing by EmailerController#index as HTML
+  Rendered emailer/index.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 871ms (Views: 796.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-30 17:24:33 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-30 17:24:33 +0530
+
+
+Started GET "/assets/emailer.css?body=1" for 127.0.0.1 at 2014-10-30 17:24:33 +0530
+
+
+Started GET "/assets/emailer.js?body=1" for 127.0.0.1 at 2014-10-30 17:24:33 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-30 17:24:33 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-30 17:24:33 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-30 17:24:33 +0530
+
+
+Started POST "/emailer/csv_import" for 127.0.0.1 at 2014-10-30 17:24:53 +0530
+Processing by EmailerController#csv_import as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vxD0u9FzsqYDkT9xkp8b119QPh1ggnK2XT64ksfAUTE=", "file"=>#<ActionDispatch::Http::UploadedFile:0x0000000381a580 @tempfile=#<File:/tmp/RackMultipart20141030-4452-1358rse>, @original_filename="sample.csv", @content_type="text/csv", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"sample.csv\"\r\nContent-Type: text/csv\r\n">, "subject"=>"fsf", "message"=>"write your message here...", "commit"=>"Send"}
+Completed   in 210199ms
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-30 19:14:13 +0530
+Processing by EmailerController#index as HTML
+  Rendered emailer/index.html.erb within layouts/application (32.7ms)
+Completed 200 OK in 175ms (Views: 147.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/emailer.css?body=1" for 127.0.0.1 at 2014-10-30 19:14:14 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-30 19:14:14 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-30 19:14:14 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-30 19:14:14 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-30 19:14:14 +0530
+
+
+Started GET "/assets/emailer.js?body=1" for 127.0.0.1 at 2014-10-30 19:14:14 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-30 19:14:14 +0530
+
+
+Started POST "/emailer/csv_import" for 127.0.0.1 at 2014-10-30 19:15:16 +0530
+Processing by EmailerController#csv_import as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vxD0u9FzsqYDkT9xkp8b119QPh1ggnK2XT64ksfAUTE=", "file"=>#<ActionDispatch::Http::UploadedFile:0x007f32642e1740 @tempfile=#<File:/tmp/RackMultipart20141030-5636-1sun8rq>, @original_filename="emails-sample.csv", @content_type="text/csv", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"emails-sample.csv\"\r\nContent-Type: text/csv\r\n">, "subject"=>"sdf", "message"=>"write your message here...", "commit"=>"Send"}
+Completed 500 Internal Server Error in 1193857ms
+
+CSV::MalformedCSVError (Unclosed quoted field on line 1.):
+  app/controllers/emailer_controller.rb:8:in `csv_import'
+
+
+  Rendered /home/eashan/.rvm/gems/ruby-1.9.3-p547/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /home/eashan/.rvm/gems/ruby-1.9.3-p547/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /home/eashan/.rvm/gems/ruby-1.9.3-p547/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /home/eashan/.rvm/gems/ruby-1.9.3-p547/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (25.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-31 01:56:01 +0530
+Processing by EmailerController#index as HTML
+  Rendered emailer/index.html.erb within layouts/application (44.2ms)
+Completed 200 OK in 210ms (Views: 174.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-31 01:56:02 +0530
+Processing by EmailerController#index as HTML
+  Rendered emailer/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 88ms (Views: 86.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/emailer.css?body=1" for 127.0.0.1 at 2014-10-31 01:56:03 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 01:56:03 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 01:56:03 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 01:56:03 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 01:56:03 +0530
+
+
+Started GET "/assets/emailer.js?body=1" for 127.0.0.1 at 2014-10-31 01:56:03 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 01:56:03 +0530
+
+
+Started POST "/emailer/csv_import" for 127.0.0.1 at 2014-10-31 01:57:24 +0530
+Processing by EmailerController#csv_import as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vxD0u9FzsqYDkT9xkp8b119QPh1ggnK2XT64ksfAUTE=", "file"=>#<ActionDispatch::Http::UploadedFile:0x00000005885180 @tempfile=#<File:/tmp/RackMultipart20141031-10665-1tak40q>, @original_filename="sample.csv", @content_type="text/csv", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"sample.csv\"\r\nContent-Type: text/csv\r\n">, "from_name"=>"dev", "from_address"=>"dev@crypsis.com", "username"=>"eashan@crypsis.net", "api_key"=>"xi7bsYdV1G06QzURzikPKA", "subject"=>"sfafafafafa", "message"=>"fwfescsc", "commit"=>"Send"}
+  Rendered emailer/contact_mail.html.erb (83.2ms)
+
+Emailer#contact_mail: processed outbound mail in 107.1ms
+
+Sent mail to eashan@crypsis.net (13274.8ms)
+Date: Fri, 31 Oct 2014 01:57:24 +0530
+From: dev <dev@crypsis.com>
+To: eashan@crypsis.net
+Message-ID: <54529f2cd35cf_29a92a9527093697@eashan-Inspiron-3521.mail>
+Subject: sfafafafafa
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+message: fwfescsc
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+	</head>
+	<body>
+		<p>
+		<p>fwfescsc</p>
+		</p>
+	</body>
+</html>
+
+  Rendered emailer/contact_mail.html.erb (0.4ms)
+
+Emailer#contact_mail: processed outbound mail in 26.4ms
+
+Sent mail to bairagi.eashan11@hotmail.com (21914.6ms)
+Date: Fri, 31 Oct 2014 01:57:38 +0530
+From: dev <dev@crypsis.com>
+To: bairagi.eashan11@hotmail.com
+Message-ID: <54529f3a28015_29a92a9527093723@eashan-Inspiron-3521.mail>
+Subject: sfafafafafa
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+message: fwfescsc
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+	</head>
+	<body>
+		<p>
+		<p>fwfescsc</p>
+		</p>
+	</body>
+</html>
+
+  Rendered emailer/contact_mail.html.erb (0.3ms)
+
+Emailer#contact_mail: processed outbound mail in 19.5ms
+
+Sent mail to bairagi.eashan11@gmail.com (11580.4ms)
+Date: Fri, 31 Oct 2014 01:58:00 +0530
+From: dev <dev@crypsis.com>
+To: bairagi.eashan11@gmail.com
+Message-ID: <54529f50188ff_29a92a9527093882@eashan-Inspiron-3521.mail>
+Subject: sfafafafafa
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+message: fwfescsc
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+	</head>
+	<body>
+		<p>
+		<p>fwfescsc</p>
+		</p>
+	</body>
+</html>
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 46933ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-31 01:58:11 +0530
+Processing by EmailerController#index as HTML
+  Rendered emailer/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 55ms (Views: 54.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/emailer.css?body=1" for 127.0.0.1 at 2014-10-31 01:58:12 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 01:58:12 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 01:58:12 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 01:58:12 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 01:58:12 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 01:58:12 +0530
+
+
+Started GET "/assets/emailer.js?body=1" for 127.0.0.1 at 2014-10-31 01:58:12 +0530
+
+
+Started POST "/emailer/csv_import" for 127.0.0.1 at 2014-10-31 02:00:51 +0530
+Processing by EmailerController#csv_import as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vxD0u9FzsqYDkT9xkp8b119QPh1ggnK2XT64ksfAUTE=", "file"=>#<ActionDispatch::Http::UploadedFile:0x007f1520177898 @tempfile=#<File:/tmp/RackMultipart20141031-10665-w92j1a>, @original_filename="sample.csv", @content_type="text/csv", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"sample.csv\"\r\nContent-Type: text/csv\r\n">, "from_name"=>"dev", "from_address"=>"dev@crypsis.com", "username"=>"eashan@crypsis.net", "api_key"=>"xi7bsYdV1G06QzURzikPKA", "subject"=>"karma", "message"=>"full on\r\n\r\nwrite your message here...", "commit"=>"Send"}
+  Rendered emailer/contact_mail.html.erb (0.2ms)
+
+Emailer#contact_mail: processed outbound mail in 13.3ms
+
+Sent mail to eashan@crypsis.net (11727.8ms)
+Date: Fri, 31 Oct 2014 02:00:51 +0530
+From: dev <dev@crypsis.com>
+To: eashan@crypsis.net
+Message-ID: <54529ffbf0c0f_29a93f8a900b1ff893984@eashan-Inspiron-3521.mail>
+Subject: karma
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+message: full on=0D=0A=0D=0Awrite your message here...
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+	</head>
+	<body>
+		<p>
+		<p>full on</p>
+
+<p>write your message here...</p>
+		</p>
+	</body>
+</html>
+
+  Rendered emailer/contact_mail.html.erb (0.8ms)
+
+Emailer#contact_mail: processed outbound mail in 24.6ms
+
+Sent mail to bairagi.eashan11@hotmail.com (17148.6ms)
+Date: Fri, 31 Oct 2014 02:01:03 +0530
+From: dev <dev@crypsis.com>
+To: bairagi.eashan11@hotmail.com
+Message-ID: <5452a007b4e0c_29a93f8a900b1ff8940e8@eashan-Inspiron-3521.mail>
+Subject: karma
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+message: full on=0D=0A=0D=0Awrite your message here...
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+	</head>
+	<body>
+		<p>
+		<p>full on</p>
+
+<p>write your message here...</p>
+		</p>
+	</body>
+</html>
+
+  Rendered emailer/contact_mail.html.erb (0.2ms)
+
+Emailer#contact_mail: processed outbound mail in 15.1ms
+
+Sent mail to bairagi.eashan11@gmail.com (14671.1ms)
+Date: Fri, 31 Oct 2014 02:01:20 +0530
+From: dev <dev@crypsis.com>
+To: bairagi.eashan11@gmail.com
+Message-ID: <5452a018dd705_29a93f8a900b1ff8941d@eashan-Inspiron-3521.mail>
+Subject: karma
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+message: full on=0D=0A=0D=0Awrite your message here...
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+	</head>
+	<body>
+		<p>
+		<p>full on</p>
+
+<p>write your message here...</p>
+		</p>
+	</body>
+</html>
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 43608ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-31 02:01:35 +0530
+Processing by EmailerController#index as HTML
+  Rendered emailer/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 99ms (Views: 98.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/emailer.css?body=1" for 127.0.0.1 at 2014-10-31 02:01:35 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 02:01:35 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 02:01:35 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 02:01:35 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 02:01:35 +0530
+
+
+Started GET "/assets/emailer.js?body=1" for 127.0.0.1 at 2014-10-31 02:01:35 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 02:01:35 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-31 02:13:33 +0530
+Processing by EmailerController#index as HTML
+  Rendered emailer/index.html.erb within layouts/application (49.0ms)
+Completed 200 OK in 316ms (Views: 272.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-31 02:13:34 +0530
+Processing by EmailerController#index as HTML
+  Rendered emailer/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 78ms (Views: 77.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/emailer.css?body=1" for 127.0.0.1 at 2014-10-31 02:13:35 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 02:13:35 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 02:13:35 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 02:13:35 +0530
+
+
+Started GET "/assets/emailer.js?body=1" for 127.0.0.1 at 2014-10-31 02:13:35 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 02:13:35 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 02:13:35 +0530
+
+
+Started POST "/emailer/csv_import" for 127.0.0.1 at 2014-10-31 02:14:09 +0530
+Processing by EmailerController#csv_import as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vxD0u9FzsqYDkT9xkp8b119QPh1ggnK2XT64ksfAUTE=", "file"=>#<ActionDispatch::Http::UploadedFile:0x007f70b40d2128 @tempfile=#<File:/tmp/RackMultipart20141031-11523-hat70j>, @original_filename="sample.csv", @content_type="text/csv", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"sample.csv\"\r\nContent-Type: text/csv\r\n">, "from_name"=>"eas", "from_address"=>"dev@crypsis.com", "username"=>"eashan@crypsis.net", "api_key"=>"xi7bsYdV1G06QzURzikPKA", "subject"=>"Again", "message"=>"lele pyaar le", "commit"=>"Send"}
+  Rendered emailer/contact_mail.html.erb (28.6ms)
+
+Emailer#contact_mail: processed outbound mail in 116.6ms
+
+Sent mail to eashan@crypsis.net (713.2ms)
+Date: Fri, 31 Oct 2014 02:16:07 +0530
+From: eas <dev@crypsis.com>
+To: eashan@crypsis.net
+Message-ID: <5452a38f7f729_2d032131ae47377e@eashan-Inspiron-3521.mail>
+Subject: Again
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+message: lele pyaar le
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+	</head>
+	<body>
+		<p>
+		<p>lele pyaar le</p>
+		</p>
+	</body>
+</html>
+
+  Rendered emailer/contact_mail.html.erb (0.2ms)
+
+Emailer#contact_mail: processed outbound mail in 22.0ms
+
+Sent mail to bairagi.eashan11@hotmail.com (589.1ms)
+Date: Fri, 31 Oct 2014 02:16:08 +0530
+From: eas <dev@crypsis.com>
+To: bairagi.eashan11@hotmail.com
+Message-ID: <5452a3903456c_2d032131ae473872@eashan-Inspiron-3521.mail>
+Subject: Again
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+message: lele pyaar le
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+	</head>
+	<body>
+		<p>
+		<p>lele pyaar le</p>
+		</p>
+	</body>
+</html>
+
+  Rendered emailer/contact_mail.html.erb (0.2ms)
+
+Emailer#contact_mail: processed outbound mail in 21.6ms
+
+Sent mail to bairagi.eashan11@gmail.com (483.9ms)
+Date: Fri, 31 Oct 2014 02:16:08 +0530
+From: eas <dev@crypsis.com>
+To: bairagi.eashan11@gmail.com
+Message-ID: <5452a390c9f6b_2d032131ae4739e6@eashan-Inspiron-3521.mail>
+Subject: Again
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+message: lele pyaar le
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+	</head>
+	<body>
+		<p>
+		<p>lele pyaar le</p>
+		</p>
+	</body>
+</html>
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 119469ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-31 02:16:09 +0530
+Processing by EmailerController#index as HTML
+  Rendered emailer/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 59ms (Views: 57.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/emailer.css?body=1" for 127.0.0.1 at 2014-10-31 02:16:09 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-31 02:25:31 +0530
+Processing by EmailerController#index as HTML
+  Rendered emailer/index.html.erb within layouts/application (41.7ms)
+Completed 200 OK in 195ms (Views: 166.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-31 02:25:31 +0530
+Processing by EmailerController#index as HTML
+  Rendered emailer/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 80ms (Views: 78.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/emailer.css?body=1" for 127.0.0.1 at 2014-10-31 02:25:32 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 02:25:32 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 02:25:32 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 02:25:32 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 02:25:32 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 02:25:32 +0530
+
+
+Started GET "/assets/emailer.js?body=1" for 127.0.0.1 at 2014-10-31 02:25:32 +0530
+
+
+Started POST "/emailer/csv_import" for 127.0.0.1 at 2014-10-31 02:26:01 +0530
+Processing by EmailerController#csv_import as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vxD0u9FzsqYDkT9xkp8b119QPh1ggnK2XT64ksfAUTE=", "file"=>#<ActionDispatch::Http::UploadedFile:0x00000004a89310 @tempfile=#<File:/tmp/RackMultipart20141031-11781-1pyztpz>, @original_filename="sample.csv", @content_type="text/csv", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"sample.csv\"\r\nContent-Type: text/csv\r\n">, "from_name"=>"dev", "from_address"=>"dev@crypsis.com", "username"=>"eashan@crypsis.net", "api_key"=>"xi7bsYdV1G06QzURzikPKA", "subject"=>"Again", "message"=>"sfdffffffffwrite your message here...", "commit"=>"Send"}
+  Rendered emailer/contact_mail.html.erb (41.4ms)
+
+Emailer#contact_mail: processed outbound mail in 80.4ms
+
+Sent mail to eashan@crypsis.net (929.3ms)
+Date: Fri, 31 Oct 2014 02:26:01 +0530
+From: dev <dev@crypsis.com>
+To: eashan@crypsis.net
+Message-ID: <5452a5e1db060_2e052397090826fc@eashan-Inspiron-3521.mail>
+Subject: Again
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+message: sfdffffffffwrite your message here...
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+	</head>
+	<body>
+		<p>
+		<p>sfdffffffffwrite your message here...</p>
+		</p>
+	</body>
+</html>
+
+  Rendered emailer/contact_mail.html.erb (0.3ms)
+
+Emailer#contact_mail: processed outbound mail in 22.4ms
+
+Sent mail to bairagi.eashan11@hotmail.com (755.8ms)
+Date: Fri, 31 Oct 2014 02:26:02 +0530
+From: dev <dev@crypsis.com>
+To: bairagi.eashan11@hotmail.com
+Message-ID: <5452a5e2ce99d_2e05239709082734@eashan-Inspiron-3521.mail>
+Subject: Again
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+message: sfdffffffffwrite your message here...
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+	</head>
+	<body>
+		<p>
+		<p>sfdffffffffwrite your message here...</p>
+		</p>
+	</body>
+</html>
+
+  Rendered emailer/contact_mail.html.erb (0.2ms)
+
+Emailer#contact_mail: processed outbound mail in 15.8ms
+
+Sent mail to bairagi.eashan11@gmail.com (885.1ms)
+Date: Fri, 31 Oct 2014 02:26:03 +0530
+From: dev <dev@crypsis.com>
+To: bairagi.eashan11@gmail.com
+Message-ID: <5452a5e396f66_2e0523970908283d@eashan-Inspiron-3521.mail>
+Subject: Again
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+message: sfdffffffffwrite your message here...
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+	</head>
+	<body>
+		<p>
+		<p>sfdffffffffwrite your message here...</p>
+		</p>
+	</body>
+</html>
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 2699ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-31 02:26:04 +0530
+Processing by EmailerController#index as HTML
+  Rendered emailer/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 59ms (Views: 58.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/emailer.css?body=1" for 127.0.0.1 at 2014-10-31 02:26:04 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 02:26:04 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 02:26:04 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 02:26:04 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 02:26:04 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 02:26:04 +0530
+
+
+Started GET "/assets/emailer.js?body=1" for 127.0.0.1 at 2014-10-31 02:26:04 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-31 02:53:43 +0530
+Processing by EmailerController#index as HTML
+  Rendered emailer/index.html.erb within layouts/application (45.8ms)
+Completed 200 OK in 216ms (Views: 184.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-31 02:53:44 +0530
+Processing by EmailerController#index as HTML
+  Rendered emailer/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 89ms (Views: 88.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/emailer.css?body=1" for 127.0.0.1 at 2014-10-31 02:53:45 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 02:53:45 +0530
+
+
+Started GET "/assets/emailer.js?body=1" for 127.0.0.1 at 2014-10-31 02:53:45 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 02:53:45 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 02:53:45 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 02:53:45 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 02:53:45 +0530
+
+
+Started POST "/emailer/csv_import" for 127.0.0.1 at 2014-10-31 02:54:18 +0530
+Processing by EmailerController#csv_import as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vxD0u9FzsqYDkT9xkp8b119QPh1ggnK2XT64ksfAUTE=", "file"=>#<ActionDispatch::Http::UploadedFile:0x007f3fe40dc7c8 @tempfile=#<File:/tmp/RackMultipart20141031-12121-rg7c76>, @original_filename="sample.csv", @content_type="text/csv", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"sample.csv\"\r\nContent-Type: text/csv\r\n">, "from_name"=>"eas", "from_address"=>"dev@crypsis.com", "username"=>"eashan@crypsis.net", "api_key"=>"xi7bsYdV1G06QzURzikPKA", "subject"=>"Hell", "message"=>"sadfdddddddddddddddddddddddddwrite your message here...", "commit"=>"Send"}
+  Rendered emailer/contact_mail.html.erb (43.8ms)
+
+Emailer#contact_mail: processed outbound mail in 72.2ms
+
+Sent mail to eashan@crypsis.net (874.1ms)
+Date: Fri, 31 Oct 2014 02:54:18 +0530
+From: eas <dev@crypsis.com>
+To: eashan@crypsis.net
+Message-ID: <5452ac82317d5_2f591f2bb3c197cd@eashan-Inspiron-3521.mail>
+Subject: Hell
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+message: sadfdddddddddddddddddddddddddwrite your message here...
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+	</head>
+	<body>
+		<p>
+		<p>sadfdddddddddddddddddddddddddwrite your message here...</p>
+		</p>
+	</body>
+</html>
+
+  Rendered emailer/contact_mail.html.erb (0.3ms)
+
+Emailer#contact_mail: processed outbound mail in 24.2ms
+
+Sent mail to bairagi.eashan11@hotmail.com (926.6ms)
+Date: Fri, 31 Oct 2014 02:54:19 +0530
+From: eas <dev@crypsis.com>
+To: bairagi.eashan11@hotmail.com
+Message-ID: <5452ac8317ec0_2f591f2bb3c1983a@eashan-Inspiron-3521.mail>
+Subject: Hell
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+message: sadfdddddddddddddddddddddddddwrite your message here...
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+	</head>
+	<body>
+		<p>
+		<p>sadfdddddddddddddddddddddddddwrite your message here...</p>
+		</p>
+	</body>
+</html>
+
+  Rendered emailer/contact_mail.html.erb (0.2ms)
+
+Emailer#contact_mail: processed outbound mail in 20.0ms
+
+Sent mail to bairagi.eashan11@gmail.com (774.1ms)
+Date: Fri, 31 Oct 2014 02:54:20 +0530
+From: eas <dev@crypsis.com>
+To: bairagi.eashan11@gmail.com
+Message-ID: <5452ac84b6dd_2f591f2bb3c19951@eashan-Inspiron-3521.mail>
+Subject: Hell
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+message: sadfdddddddddddddddddddddddddwrite your message here...
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+	</head>
+	<body>
+		<p>
+		<p>sadfdddddddddddddddddddddddddwrite your message here...</p>
+		</p>
+	</body>
+</html>
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 2701ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-31 02:54:20 +0530
+Processing by EmailerController#index as HTML
+  Rendered emailer/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 56ms (Views: 54.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/emailer.css?body=1" for 127.0.0.1 at 2014-10-31 02:54:21 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 02:54:21 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 02:54:21 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 02:54:21 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 02:54:21 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 02:54:21 +0530
+
+
+Started GET "/assets/emailer.js?body=1" for 127.0.0.1 at 2014-10-31 02:54:21 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-31 08:25:29 +0530
+Processing by EmailerController#index as HTML
+  Rendered emailer/index.html.erb within layouts/application (48.7ms)
+Completed 200 OK in 214ms (Views: 154.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-31 08:25:30 +0530
+Processing by EmailerController#index as HTML
+  Rendered emailer/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 97ms (Views: 95.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/emailer.css?body=1" for 127.0.0.1 at 2014-10-31 08:25:31 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 08:25:31 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 08:25:31 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 08:25:31 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 08:25:31 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 08:25:31 +0530
+
+
+Started GET "/assets/emailer.js?body=1" for 127.0.0.1 at 2014-10-31 08:25:31 +0530
+
+
+Started POST "/emailer/csv_import" for 127.0.0.1 at 2014-10-31 08:26:18 +0530
+Processing by EmailerController#csv_import as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vxD0u9FzsqYDkT9xkp8b119QPh1ggnK2XT64ksfAUTE=", "file"=>#<ActionDispatch::Http::UploadedFile:0x000000049d7c00 @tempfile=#<File:/tmp/RackMultipart20141031-13691-1cna2lr>, @original_filename="sample.csv", @content_type="text/csv", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"sample.csv\"\r\nContent-Type: text/csv\r\n">, "from_name"=>"dev", "from_address"=>"dev@crypsis.com", "username"=>"eashan@crypsis.net", "api_key"=>"xi7bsYdV1G06QzURzikPKA", "subject"=>"Again here", "message"=>"test 1234343243242", "commit"=>"Send"}
+Completed 500 Internal Server Error in 1ms
+
+CSV::MalformedCSVError (Illegal quoting in line 1.):
+  app/controllers/emailer_controller.rb:8:in `csv_import'
+
+
+  Rendered /home/eashan/.rvm/gems/ruby-1.9.3-p547/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.3ms)
+  Rendered /home/eashan/.rvm/gems/ruby-1.9.3-p547/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /home/eashan/.rvm/gems/ruby-1.9.3-p547/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (41.6ms)
+  Rendered /home/eashan/.rvm/gems/ruby-1.9.3-p547/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (75.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-31 08:28:53 +0530
+Processing by EmailerController#index as HTML
+  Rendered emailer/index.html.erb within layouts/application (37.9ms)
+Completed 200 OK in 186ms (Views: 156.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/emailer.css?body=1" for 127.0.0.1 at 2014-10-31 08:28:54 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 08:28:54 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 08:28:54 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 08:28:54 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 08:28:54 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 08:28:54 +0530
+
+
+Started GET "/assets/emailer.js?body=1" for 127.0.0.1 at 2014-10-31 08:28:54 +0530
+
+
+Started POST "/emailer/csv_import" for 127.0.0.1 at 2014-10-31 08:29:20 +0530
+Processing by EmailerController#csv_import as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vxD0u9FzsqYDkT9xkp8b119QPh1ggnK2XT64ksfAUTE=", "file"=>#<ActionDispatch::Http::UploadedFile:0x007f521023f9b0 @tempfile=#<File:/tmp/RackMultipart20141031-13803-1ofjftb>, @original_filename="sample.csv", @content_type="text/csv", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"sample.csv\"\r\nContent-Type: text/csv\r\n">, "from_name"=>"dev", "from_address"=>"dev@crypsis.com", "username"=>"eashan@crypsis.net", "api_key"=>"xi7bsYdV1G06QzURzikPKA", "subject"=>"Again here", "message"=>"testing 23490239423094", "commit"=>"Send"}
+Completed 500 Internal Server Error in 2ms
+
+CSV::MalformedCSVError (Illegal quoting in line 1.):
+  app/controllers/emailer_controller.rb:8:in `csv_import'
+
+
+  Rendered /home/eashan/.rvm/gems/ruby-1.9.3-p547/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.2ms)
+  Rendered /home/eashan/.rvm/gems/ruby-1.9.3-p547/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /home/eashan/.rvm/gems/ruby-1.9.3-p547/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/eashan/.rvm/gems/ruby-1.9.3-p547/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-31 08:38:51 +0530
+Processing by EmailerController#index as HTML
+  Rendered emailer/index.html.erb within layouts/application (42.1ms)
+Completed 200 OK in 198ms (Views: 170.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-31 08:38:52 +0530
+Processing by EmailerController#index as HTML
+  Rendered emailer/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 89ms (Views: 87.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/emailer.css?body=1" for 127.0.0.1 at 2014-10-31 08:38:52 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 08:38:52 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 08:38:52 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 08:38:52 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 08:38:52 +0530
+
+
+Started GET "/assets/emailer.js?body=1" for 127.0.0.1 at 2014-10-31 08:38:52 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 08:38:52 +0530
+
+
+Started POST "/emailer/csv_import" for 127.0.0.1 at 2014-10-31 08:39:16 +0530
+Processing by EmailerController#csv_import as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vxD0u9FzsqYDkT9xkp8b119QPh1ggnK2XT64ksfAUTE=", "file"=>#<ActionDispatch::Http::UploadedFile:0x007f2c000d3008 @tempfile=#<File:/tmp/RackMultipart20141031-13994-awdt4j>, @original_filename="sample.csv", @content_type="text/csv", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"sample.csv\"\r\nContent-Type: text/csv\r\n">, "from_name"=>"dev", "from_address"=>"dev@crypsis.com", "username"=>"eashan@crypsis.net", "api_key"=>"xi7bsYdV1G06QzURzikPKA", "subject"=>"Again here", "message"=>"testging 342394024", "commit"=>"Send"}
+  Rendered emailer/contact_mail.html.erb (43.4ms)
+
+Emailer#contact_mail: processed outbound mail in 75.3ms
+
+Sent mail to  "eashan@crypsis.net (802.3ms)
+Date: Fri, 31 Oct 2014 08:39:16 +0530
+From: dev <dev@crypsis.com>
+to: "eashan@crypsis.net
+Message-ID: <5452fd5c4d226_36aa29a83e4537fe@eashan-Inspiron-3521.mail>
+Subject: Again here
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+message: testging 342394024
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+	</head>
+	<body>
+		<p>
+		<p>testging 342394024</p>
+		</p>
+	</body>
+</html>
+
+  Rendered emailer/contact_mail.html.erb (0.2ms)
+
+Emailer#contact_mail: processed outbound mail in 12.0ms
+
+Sent mail to  bairagi.eashan11@hotmail.com" (642.4ms)
+Date: Fri, 31 Oct 2014 08:39:17 +0530
+From: dev <dev@crypsis.com>
+to: bairagi.eashan11@hotmail.com"
+Message-ID: <5452fd5d1edc0_36aa29a83e453899@eashan-Inspiron-3521.mail>
+Subject: Again here
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+message: testging 342394024
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+	</head>
+	<body>
+		<p>
+		<p>testging 342394024</p>
+		</p>
+	</body>
+</html>
+
+  Rendered emailer/contact_mail.html.erb (0.3ms)
+
+Emailer#contact_mail: processed outbound mail in 19.2ms
+
+Sent mail to  "bairagi.eashan11@gmail.com (680.7ms)
+Date: Fri, 31 Oct 2014 08:39:17 +0530
+From: dev <dev@crypsis.com>
+to: "bairagi.eashan11@gmail.com
+Message-ID: <5452fd5dc0b6b_36aa29a83e4539a3@eashan-Inspiron-3521.mail>
+Subject: Again here
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+message: testging 342394024
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+	</head>
+	<body>
+		<p>
+		<p>testging 342394024</p>
+		</p>
+	</body>
+</html>
+
+  Rendered emailer/contact_mail.html.erb (0.2ms)
+
+Emailer#contact_mail: processed outbound mail in 20.7ms
+
+Sent mail to  bairagi.eashan11@gmail.com" (627.9ms)
+Date: Fri, 31 Oct 2014 08:39:18 +0530
+From: dev <dev@crypsis.com>
+to: bairagi.eashan11@gmail.com"
+Message-ID: <5452fd5e78486_36aa29a83e45409b@eashan-Inspiron-3521.mail>
+Subject: Again here
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+message: testging 342394024
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+	</head>
+	<body>
+		<p>
+		<p>testging 342394024</p>
+		</p>
+	</body>
+</html>
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 2893ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-31 08:39:19 +0530
+Processing by EmailerController#index as HTML
+  Rendered emailer/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 64ms (Views: 62.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/emailer.css?body=1" for 127.0.0.1 at 2014-10-31 08:39:19 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 08:39:19 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 08:39:19 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 08:39:19 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 08:39:19 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 08:39:19 +0530
+
+
+Started GET "/assets/emailer.js?body=1" for 127.0.0.1 at 2014-10-31 08:39:19 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-31 08:42:18 +0530
+Processing by EmailerController#index as HTML
+  Rendered emailer/index.html.erb within layouts/application (38.1ms)
+Completed 200 OK in 191ms (Views: 162.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-31 08:42:18 +0530
+Processing by EmailerController#index as HTML
+  Rendered emailer/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 86ms (Views: 84.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/emailer.css?body=1" for 127.0.0.1 at 2014-10-31 08:42:19 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 08:42:19 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 08:42:19 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 08:42:19 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 08:42:19 +0530
+
+
+Started GET "/assets/emailer.js?body=1" for 127.0.0.1 at 2014-10-31 08:42:19 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 08:42:19 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-31 08:47:19 +0530
+Processing by EmailerController#index as HTML
+  Rendered emailer/index.html.erb within layouts/application (42.4ms)
+Completed 200 OK in 197ms (Views: 166.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-31 08:47:20 +0530
+Processing by EmailerController#index as HTML
+  Rendered emailer/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 87ms (Views: 85.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/emailer.css?body=1" for 127.0.0.1 at 2014-10-31 08:47:20 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 08:47:20 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 08:47:20 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 08:47:20 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 08:47:20 +0530
+
+
+Started GET "/assets/emailer.js?body=1" for 127.0.0.1 at 2014-10-31 08:47:20 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 08:47:20 +0530
+
+
+Started POST "/emailer/csv_import" for 127.0.0.1 at 2014-10-31 08:48:02 +0530
+Processing by EmailerController#csv_import as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vxD0u9FzsqYDkT9xkp8b119QPh1ggnK2XT64ksfAUTE=", "file"=>#<ActionDispatch::Http::UploadedFile:0x00000004b48260 @tempfile=#<File:/tmp/RackMultipart20141031-14164-1lifctg>, @original_filename="sample.csv", @content_type="text/csv", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"sample.csv\"\r\nContent-Type: text/csv\r\n">, "from_name"=>"dev", "from_address"=>"dev@crypsis.com", "username"=>"eashan@crypsis.net", "api_key"=>"xi7bsYdV1G06QzURzikPKA", "subject"=>"Again here", "message"=>"testingsg2342324243", "commit"=>"Send"}
+  Rendered emailer/contact_mail.html.erb (43.3ms)
+
+Emailer#contact_mail: processed outbound mail in 73.6ms
+
+Sent mail to eashan@crypsis.net (909.0ms)
+Date: Fri, 31 Oct 2014 08:48:02 +0530
+From: dev <dev@crypsis.com>
+To: eashan@crypsis.net
+Message-ID: <5452ff6a6083d_375423f1e2856832@eashan-Inspiron-3521.mail>
+Subject: Again here
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+message: testingsg2342324243
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+	</head>
+	<body>
+		<p>
+		<p>testingsg2342324243</p>
+		</p>
+	</body>
+</html>
+
+  Rendered emailer/contact_mail.html.erb (0.4ms)
+
+Emailer#contact_mail: processed outbound mail in 24.6ms
+
+Sent mail to bairagi.eashan11@hotmail.com (824.5ms)
+Date: Fri, 31 Oct 2014 08:48:03 +0530
+From: dev <dev@crypsis.com>
+To: bairagi.eashan11@hotmail.com
+Message-ID: <5452ff6b4f18e_375423f1e285699f@eashan-Inspiron-3521.mail>
+Subject: Again here
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+message: testingsg2342324243
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+	</head>
+	<body>
+		<p>
+		<p>testingsg2342324243</p>
+		</p>
+	</body>
+</html>
+
+  Rendered emailer/contact_mail.html.erb (0.2ms)
+
+Emailer#contact_mail: processed outbound mail in 19.1ms
+
+Sent mail to bairagi.eashan11@gmail.com (770.8ms)
+Date: Fri, 31 Oct 2014 08:48:04 +0530
+From: dev <dev@crypsis.com>
+To: bairagi.eashan11@gmail.com
+Message-ID: <5452ff6c2971f_375423f1e285707b@eashan-Inspiron-3521.mail>
+Subject: Again here
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+message: testingsg2342324243
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+	</head>
+	<body>
+		<p>
+		<p>testingsg2342324243</p>
+		</p>
+	</body>
+</html>
+
+  Rendered emailer/contact_mail.html.erb (0.4ms)
+
+Emailer#contact_mail: processed outbound mail in 24.4ms
+
+Sent mail to bairagi.eashan11@gmail.com (760.7ms)
+Date: Fri, 31 Oct 2014 08:48:04 +0530
+From: dev <dev@crypsis.com>
+To: bairagi.eashan11@gmail.com
+Message-ID: <5452ff6cec50a_375423f1e285714f@eashan-Inspiron-3521.mail>
+Subject: Again here
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+message: testingsg2342324243
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+	</head>
+	<body>
+		<p>
+		<p>testingsg2342324243</p>
+		</p>
+	</body>
+</html>
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 3420ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-31 08:48:05 +0530
+Processing by EmailerController#index as HTML
+  Rendered emailer/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 62ms (Views: 60.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/emailer.css?body=1" for 127.0.0.1 at 2014-10-31 08:48:06 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 08:48:06 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 08:48:06 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 08:48:06 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 08:48:06 +0530
+
+
+Started GET "/assets/emailer.js?body=1" for 127.0.0.1 at 2014-10-31 08:48:06 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 08:48:06 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-03 11:04:37 +0530
+Processing by EmailerController#index as HTML
+  Rendered emailer/index.html.erb within layouts/application (55.2ms)
+Completed 200 OK in 541ms (Views: 442.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-03 11:04:39 +0530
+Processing by EmailerController#index as HTML
+  Rendered emailer/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 109ms (Views: 108.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/emailer.css?body=1" for 127.0.0.1 at 2014-11-03 11:04:40 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-03 11:04:40 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-03 11:04:40 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-03 11:04:40 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-03 11:04:40 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-03 11:04:40 +0530
+
+
+Started GET "/assets/emailer.js?body=1" for 127.0.0.1 at 2014-11-03 11:04:40 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-21 22:52:46 -0400
+Processing by EmailerController#index as HTML
+  Rendered emailer/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 812ms (Views: 770.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/emailer.css?body=1" for 127.0.0.1 at 2018-04-21 22:52:48 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2018-04-21 22:52:48 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2018-04-21 22:52:48 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2018-04-21 22:52:48 -0400
+
+
+Started GET "/assets/emailer.js?body=1" for 127.0.0.1 at 2018-04-21 22:52:48 -0400

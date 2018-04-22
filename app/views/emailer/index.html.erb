@@ -1,0 +1,24 @@
+<%if notice%>
+	<p id='notice'><%= notice %> </p>
+<%end%>
+<%=form_tag({:controller => "emailer", :action => "csv_import"}, :multipart => true) do%>
+	<%=file_field_tag "file", :accept => "text/csv"%><br/>
+	<p><%=label_tag(:email_from_name, "From Name")%>:
+	<%=text_field_tag(:from_name, '', size: "50")%></p>
+	
+	<p><%=label_tag(:email_from_address, "From Email Address")%>:
+	<%=text_field_tag(:from_address, '', size: "50")%></p>
+	
+	<p><%=label_tag(:mandrill_username, "Mandrill Username")%>:
+	<%=text_field_tag(:username, '', size: "75")%></p>
+
+	<p><%=label_tag(:mandrill_api_key, "API key")%>:
+	<%=text_field_tag(:api_key, '', size: "75")%></p>
+	
+	<p><%=label_tag(:email_subject, "Subject")%>:
+	<%=text_field_tag(:subject, '', size: "75")%></p>
+	<P><%=label_tag(:email_message, "Message")%>:</p>
+	<p><%=text_area_tag(:message, "write your message here...", size: "35x20")%></p>
+	<%=submit_tag "Send"%>
+<%end%>
+
